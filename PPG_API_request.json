@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "a0333225-b46d-49f5-ada7-0018813eb1b6",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name_user\": \"2\",\n    \"id_video\" : \"a\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "172.16.2.189:8000/preprocess_vid/",
+					"host": [
+						"172",
+						"16",
+						"2",
+						"189"
+					],
+					"port": "8000",
+					"path": [
+						"preprocess_vid",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
